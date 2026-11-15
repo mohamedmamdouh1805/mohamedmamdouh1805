@@ -36,11 +36,24 @@ I'm **Mohamed Mamdouh**, a Computer Science and AI student at **King Salman Inte
 
 | Project | What it does | Stack |
 |:--|:--|:--|
-| 🔬 **[Industrial Defect Detection](https://github.com/mohamedmamdouh1805/industrial-defect-detection)** | Classifies six steel-surface defect types; trained CNN and MobileNetV3-Small classifiers. | PyTorch · Transfer Learning · Streamlit |
+| 🔬 **[Industrial Surface Defect Detection](https://github.com/mohamedmamdouh1805/industrial-defect-detection)** | Classifies six steel-surface defect types; trained CNN and MobileNetV3-Small classifiers. | PyTorch · Transfer Learning · Streamlit |
+| 🩺 **[Anesthesia Decision Support System](https://github.com/mohamedmamdouh1805/anesthesia-decision-support)** | Educational research prototype for general anesthesia type prediction and numeric dosage estimation, with an interactive dashboard. | CatBoost · TensorFlow/Keras · Streamlit · Plotly |
 | 🎯 **[Object Detection, Tracking & Counting](https://github.com/mohamedmamdouh1805/object-detection-tracking-counting)** | Tracks objects across video frames, counts line crossings, and exports annotated video and CSV counts. | YOLO11n · ByteTrack · OpenCV · Streamlit |
 | 📄 **[Smart Document Scanner](https://github.com/mohamedmamdouh1805/smart-document-scanner)** | Detects document boundaries, supports manual corner adjustment, and exports enhanced scans. | Python · OpenCV · Streamlit |
 | 🔎 **[AI Visual Search Engine](https://github.com/mohamedmamdouh1805/ai-visual-search-engine)** | Finds visually similar images with pretrained embeddings and cosine similarity. | PyTorch · MobileNetV3 · Scikit-learn |
 | 🗣️ **[Arabic Sentiment Analysis](https://github.com/mohamedmamdouh1805/arabic-sentiment-analysis)** | Compares TF-IDF + classical ML baselines for four ASTD tweet classes: positive, negative, mixed, objective. | NLP · Logistic Regression · Linear SVM |
+
+<details>
+<summary><b>🩺 Anesthesia Decision Support System — implementation</b></summary>
+
+- **Models:** A CatBoost classifier predicts general anesthesia type. A TensorFlow/Keras regression model estimates numeric dosage using saved feature preprocessing and target scaling.
+- **Streamlit app:** The **Business Dashboard** shows exploratory Plotly charts and summary metrics. **Patient Prediction** generates model outputs from basic, medical, procedure, and genetic inputs.
+- **Saved artifacts:** `classification_model.cbm`, `regression_model.keras`, `preprocessor.pkl`, `y_scaler.pkl`, and `feature_info.json`.
+- **Stack:** Python · CatBoost · TensorFlow/Keras · Scikit-learn · Pandas · NumPy · Streamlit · Plotly · Joblib
+
+**Use limitation:** This educational research prototype has no clinical validation. Its outputs are for research and demonstration only and must never guide real patient treatment or medical decisions.
+
+</details>
 
 <details>
 <summary><b>📊 Selected measured results and limitations</b></summary>
@@ -66,7 +79,7 @@ A software product for small business owners to manage storefronts, products, va
 | **Arab Organization for Industrialization (AOI)** | Artificial Intelligence Training | **August 2025** | Two weeks |
 | **Huawei** | Artificial Intelligence Training | **July 2026** | Two weeks; Huawei AI training certificates |
 
-**NTI team project — Anesthesia Decision Support System:** contributed to an **educational AI prototype** exploring anesthesia-type classification and dosage prediction. This is **not clinically validated** or intended for medical use.
+I independently implemented the technical components of the **Anesthesia Decision Support System**, a team-assigned project during my NTI AI for Business training. See **Featured AI projects** for the implementation.
 
 ## 🎓 Education
 
